@@ -1,6 +1,5 @@
 {
-    "parser": "babel-eslint",
-    
+    "parser": "babel-eslint",    
     "env": {
         "browser": true,
         "es6": true
@@ -23,7 +22,6 @@
         "space-before-function-paren": 0,
         "react/prefer-stateless-function": 0,
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "linebreak-style": ["error","windows"],
         "global-require": 0,  
         "quotes": [
             "error",

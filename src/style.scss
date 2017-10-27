@@ -1,17 +1,20 @@
 $color-primary : #000;
+$color-secondary: #81c784;
+
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: Roboto sans-serif;
   background-color: $color-primary; 
 }
- .App-header {
-      color: greenyellow;
-      .App-logo {
-        height: 250px;
-      }
-      .mui-btn {
-        background-color: greenyellow;
-      }
-  }
+.App {
+  font-family: Roboto sans-serif;
+  color: $color-secondary;
+  width:500px;
+}
+
+.leaflet-container {
+   background-color: transparent !important;
+   height: 270px;
+   width: 100%; 
+   font-style: Roboto, sans-seriff; 
+ }
