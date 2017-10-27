@@ -9,12 +9,11 @@ body {
 .App {
   font-family: Roboto sans-serif;
   color: $color-secondary;
-  width:500px;
 }
 
 .leaflet-container {
    background-color: transparent !important;
-   height: 270px;
+   height: 500px;
    width: 100%; 
    font-style: Roboto, sans-seriff; 
  }
