@@ -1,0 +1,20 @@
+{
+    "homes": [
+        {
+            "name":"Pedrogão Grande",
+            "hosts":true,
+            "id":2,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"jfbigpedrogans@focus.com",
+            "stories": ["http://publisher.com/reportagem"],
+            "meals":true,
+            "photo":"https://autoandrive.files.wordpress.com/2011/06/img_5537.jpg",
+            "type":"T2",
+            "internet":true,
+            "reference":"Ao pé do café do Zé da Pipa"
+        }
+    ]
+}
