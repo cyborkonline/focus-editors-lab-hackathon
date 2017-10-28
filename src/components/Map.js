@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import Modal from 'react-modal';
+import ModalContent from './Modal';
 import coordinates from '../dev/coordinates.json';
-
 
 const modalContentStyle = {
   position: 'absolute',
-  backgroundColor: 'orange',
 };
 
 const modalOverlayStyle = {
@@ -21,6 +20,7 @@ export default class LeafletMap extends Component {
     this.state = {
       zoom: 4,
       modalOpen: false,
+      modalRegionId: 0,
     };
     this.coordinates = coordinates;
   }
@@ -33,11 +33,17 @@ export default class LeafletMap extends Component {
     const districtPositions = this.coordinates.districts;
     for (let i = 0; i < districtPositions.length; i++) { // eslint-disable-line
       const latLong = districtPositions[i].coordinates;
+      const id = districtPositions[i].id;
       markersArray.push(
         <Marker
           position={latLong}
-          key={i}
-          onClick={() => { this.setState({ modalOpen: !this.state.modalOpen }); }}
+          key={id}
+          onClick={() => {
+            this.setState({
+              modalOpen: !this.state.modalOpen,
+              modalRegionId: id,
+            });
+          }}
         />,
       );
     }
@@ -67,7 +73,9 @@ export default class LeafletMap extends Component {
           }}
           contentLabel="Modal"
         >
-          <h1>Hey Im a modal</h1>
+          <ModalContent
+            modalRegionId={this.state.modalRegionId}
+          />
         </Modal>
       </div>
     );
