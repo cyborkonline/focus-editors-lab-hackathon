@@ -44,7 +44,7 @@ export default class ModalContent extends Component {
             <h5>Stories from {this.modalRegionName}</h5>
           </Appbar>
           <Timeline
-            regionId={this.regionId || 0}
+            regionId={this.modalId || 0}
           />
         </div>
         <Divider />

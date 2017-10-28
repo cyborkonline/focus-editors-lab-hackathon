@@ -27,7 +27,7 @@ export default class Timeline extends Component {
           c => (c.date || c.date === 0) && c.date >= story.date,
         );
         if (this.regionId !== 0) {
-          if (story.id === this.regionId) {
+          if (story.id === this.regionId || story.regionId === this.regionId) {
             organizedStories.splice(
               componentIndex < 0 ? organizedStories.length : componentIndex,
               0,
@@ -58,7 +58,34 @@ export default class Timeline extends Component {
         }
       }
     }
-    return (<h1> hey </h1>);
+    storyData = storyData.sort((a, b) => a.date > b.date);
+    for (let i = 0; i < storyData.length; i += 1) {
+      const story = storyData[i];
+      const storyThumbnail = story.link ? '../../assets/focus_icon_withimg1.png' : '../../assets/focus_icon_withimg2.png';
+      let element;
+      if (story.link) {
+        element = (
+          <div className="story" key={i}>
+            <a href={story.link} target="_blank">
+              <img src={storyThumbnail} alt="focus-marker" className="story-thumbnail" />
+              <h4>{story.title} in <i>{story.publisher}</i></h4>
+            </a>
+            <h5>{story.date}</h5>
+          </div>
+        );
+      } else {
+        element = (
+          <div className="story" key={i}>
+            <img src={storyThumbnail} alt="focus-marker" className="story-thumbnail" />
+            <h5>{story.date}</h5>
+            <p>{story.content}</p>
+          </div>
+        );
+      }
+      storyElements.push(element);
+    }
+
+    return (storyElements);
   }
 
   render() {

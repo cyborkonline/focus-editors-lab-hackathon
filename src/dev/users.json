@@ -1,10 +1,16 @@
 {
     "users": [
         {
-            "name":"David Morais",
-            "email":"david@frames.news",
-            "password":"******",
+            "name":"Milton Cappelletti",
+            "email":"milton@frames.news",
+            "password":"12345",
             "role":"publisher"
-        }
+          },  
+        {
+            "name":"Mônica Mendes",
+            "email":"monicamatosmendes@gmail.com",
+            "password":"abcde",
+            "role":"publisher"
+          }
     ]
 }

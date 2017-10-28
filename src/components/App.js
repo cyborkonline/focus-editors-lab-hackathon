@@ -1,7 +1,5 @@
 /* eslint-disable */
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-import TEST_DATA from '../dev/testData.json';
 import Divider from 'muicss/lib/react/divider';
 import LeafletMap from './Map';
 import LoginButton from './Login'
@@ -14,8 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-Title">
-          <h1>Focus</h1>
-
+          <img src="../../assets/focus_logo.png"/>
           <Divider />
 
           <div className="title-sections">

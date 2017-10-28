@@ -1,36 +1,68 @@
+
 {
     "speak": [
         {
+            "regionId":1,
+            "date": "14 October, 2017",
+            "author":"João Pereira da Silva",
+            "title":"Estrada perdida",
+            "content": "Vi pessoas  pelas chamas ou intoxicados pelo fumo. Manuel perdeu quase tudo. Sobrou a casa, parcialmente destruída. Das sete cabeças de gado, restam três. Duas ovelhas e uma cabra. Quando mostra o que resta do espaço onde guardava o pouco que tinha, é impossível ignorar o cadáver de uma ovelha, intocado pelas chamas e de olhar vazio."
+        },{
             "regionId":2,
-            "date": 1509840000000,
-            "author":"Sr. João",
-            "title":"Lore ipsum",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mauris luctus magna auctor consequat vel sed lectus. Etiam ante est, pulvinar non ultrices sed, mollis et turpis. Vivamus eu condimentum nulla, vel mattis enim. Nunc imperdiet lorem id metus sollicitudin, sed suscipit neque volutpat. Maecenas quis pharetra neque. Nam eu eros justo. Vivamus vehicula, velit sed faucibus congue, ligula purus dictum tellus, id porttitor dui odio sed justo."
-        },
-        {
+            "date": "22 October, 2017",
+            "author":"Maria Costa e Silva",
+            "title":"A aldeia solitária",
+            "content": "Numa aldeia onde todos se davam bem, 'apesar das chatices normais entre vizinhos', foi Manuel quem ajudou a proteção civil..."
+        },{
             "regionId":3,
-            "date": 1509850000000,
-            "author":"Sr. Duarte",
-            "title":"Lore ipsum",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec mauris luctus magna auctor consequat vel sed lectus. Etiam ante est, pulvinar non ultrices sed, mollis et turpis. Vivamus eu condimentum nulla, vel mattis enim. Nunc imperdiet lorem id metus sollicitudin, sed suscipit neque volutpat. Maecenas quis pharetra neque. Nam eu eros justo. Vivamus vehicula, velit sed faucibus congue, ligula purus dictum tellus, id porttitor dui odio sed justo."
+            "date": "Tue, 3 October, 2017",
+            "author":"André Pinheiro",
+            "title":"A aldeia solitária",
+            "content": "Ricardo, não vás. Não vás. Deixa aí o carro. As palavras ainda ecoam na cabeça de Célia quando a memória pára no momento em que o vizinho, de pouco mais de 30 anos, pegou na viatura, meteu a mãe dentro e arrancou a toda a velocidade."
+        },{
+            "regionId":3,
+            "date": "13 September, 2017",
+            "author":"Ana Pimentel",
+            "title":"Perdas irreparáveis",
+            "content": "Fernando Paiva, tal como Armando, também decidiu fugir. O filho veio buscá-lo e, felizmente, conseguiu sair para o lado contrário do local onde os vizinhos haveriam de perder a vida"
+        },{
+            "regionId":4,
+            "date": "27 September, 2017",
+            "author":"Ricardo Oliveira",
+            "title":"Cenário de devastação",
+            "content": "O cenário é de devastação, quase pós-bélica. Postes de eletricidade caídos, com os cabos a fazerem de lombas na estrada, a sinalética rodoviária consumida pelas chamas"
         }
     ],
     "report": [
         {
-            "author":"David Morais",
-            "date": 1509850000000,
-            "link":"http://observador.pt/fogos",
-            "title":"Lorem ipsum dolor sit amet",
-            "lead":"Nullam nec mauris luctus magna auctor",
-            "thumbnail":"imagelink.jpg"
+            "author":"Sebastião Bugalho",
+            "regionId":1,
+            "date": "14 October, 2017",
+            "publisher":"ionline.sapo.pt",
+            "link":"https://ionline.sapo.pt/artigo/568382/e-o-inferno-na-terra-teve-um-nome-pedrogao-grande?seccao=Portugal_i",
+            "title":"E o inferno na terra teve um nome: Pedrógão Grande",
+            "lead":"Depois de uma tarde passada na praia das Rocas, os automobilistas que regressavam a casa viram-se apanhados numa armadilha de fumo e chamas. As autoridades atribuem as culpas da tragédia à trovoada seca, mas a ideia de fogo posto não abandona as mentes de muitos locais",
+            "thumbnail":"https://cdn1.newsplex.pt/media/2017/6/19/590728.jpg"
         },
         {
-            "author":"Milton Capelleti",
-            "date": 1509860000000,
-            "link":"http://observador.pt/fogos",
-            "title":"Lorem ipsum dolor sit amet",
-            "lead":"Nullam nec mauris luctus magna auctor",
-            "thumbnail":"imagelink.jpg"
+            "author":"João Carlos Malta",
+            "regionId":2,
+            "date": "4 October, 2017",
+            "publisher":"rr.sapo.pt",
+            "link":"http://rr.sapo.pt/noticia/86571/ricardo_nao_vas_nao_vas_mas_ele_foi_e_ja_nao_volta",
+            "title":"​Ricardo, não vás. Não vás. Mas ele foi e já não volta",
+            "lead":"Em Pobrais, um terço da aldeia perdeu a vida a tentar fugir do fogo que lhe engoliu casas, animais, vegetação. Mas pior que tudo foi uma tentativa desesperada que levou a vida de 11 vizinhos e amigos.",
+            "thumbnail":"https://cdnimages01.azureedge.net/renascenca/img_18882752b2c0.jpg"
+        },
+        {
+            "author":"Miguel Santos Carrapatoso",
+            "regionId":3,
+            "date": "1 October, 2017",
+            "publisher":"observador.pt",
+            "link":"http://observador.pt/especiais/encontrei-dez-corpos-quatro-ali-tres-la-em-cima-outros-dois-ali-nao-sei-do-meu-filho/",
+            "title":"Econtrei 10 corpos",
+            "lead":"Em Nodeirinho, aldeia de Pedrógão Grande, morreram 11 pessoas. Não seriam mais de 30 habitantes. Há um pai que não sabe do filho e um homem que faz guarda à namorada morta em casa.",
+            "thumbnail":"http://img.obsnocookie.com/s=w1300,pd1/o=80/http://s3cdn.observador.pt/wp-content/uploads/2017/06/19131729/incendio_pedrogao37_1280x640_acf_cropped-1.jpg"
         }
     ]
 }

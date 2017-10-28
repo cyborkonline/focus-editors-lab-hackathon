@@ -1,20 +1,79 @@
 {
     "homes": [
         {
-            "name":"Pedrogão Grande",
+            "name":"Lousã",
+            "hosts":true,
+            "id":1,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"joaolousa@gmail.com",
+            "stories": ["https://www.rtp.pt/noticias/pais/sexta-as-9-no-ponto-de-ignicao-do-incendio-da-lousa_v1036727"],
+            "meals":true,       "photo":"http://1.bp.blogspot.com/-GMJ26gyK1J8/UC1EPdlRdII/AAAAAAAADgU/avaNsTigDCk/s1600/IMG_3292.JPG",
+            "type":"T2",
+            "internet":true,
+            "reference":"Próximo a um café"
+        },
+        {
+            "name":"Montijo",
             "hosts":true,
             "id":2,
             "availability": [
                 1509408000000,
                 1509840000000
             ],
-            "contact":"jfbigpedrogans@focus.com",
-            "stories": ["http://publisher.com/reportagem"],
-            "meals":true,
-            "photo":"https://autoandrive.files.wordpress.com/2011/06/img_5537.jpg",
-            "type":"T2",
+            "contact":"mariamontijo@gmail.com",
+            "stories": ["https://www.dn.pt/sociedade/interior/fumo-de-incendio-no-montijo-levou-ao-corte-da-a33---protecao-civil-8773927.html"],
+            "meals":true,       "photo":"https://static.globalnoticias.pt/dn/image.aspx?brand=DN&type=generate&name=original&id=8773927&w=579&h=371&t=20170915165700",
+            "type":"T1",
             "internet":true,
-            "reference":"Ao pé do café do Zé da Pipa"
+            "reference":""
+        },
+        {
+            "name":"Alhais",
+            "hosts":true,
+            "id":4,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"martaalhais@gmail.com",
+            "stories": ["https://www.tsf.pt/lusa/interior/incendios-gnr-identifica-idosa-que-tera-ateado-fogo-florestal-em-vila-nova-de-paiva-8700527.html"],
+            "meals":true,       "photo":"https://pp.userapi.com/c639223/v639223179/507a5/zn7uAPxbLEI.jpg",
+            "type":"quarto",
+            "internet":true,
+            "reference":""
+        },
+        {
+            "name":"Alhais",
+            "hosts":true,
+            "id":4,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"martaalhais@gmail.com",
+            "stories": ["https://www.tsf.pt/lusa/interior/incendios-gnr-identifica-idosa-que-tera-ateado-fogo-florestal-em-vila-nova-de-paiva-8700527.html"],
+            "meals":true,       "photo":"https://pp.userapi.com/c639223/v639223179/507a5/zn7uAPxbLEI.jpg",
+            "type":"quarto",
+            "internet":true,
+            "reference":""
+        },
+        {
+            "name":"Arganil",
+            "hosts":true,
+            "id":1,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"pedroarganil@gmail.com",
+            "stories": ["http://www.tvi24.iol.pt/sociedade/08-10-2017/incendio-em-pampilhosa-da-serra-e-arganil-complica-se"],
+            "meals":true,       "photo":"http://sm2.imgs.sapo.pt/mb/g/4/b/LhjUZlVEmRFS2TYldtB9BGWk_.jpg",
+            "type":"quarto",
+            "internet":true,
+            "reference":""
         }
     ]
 }

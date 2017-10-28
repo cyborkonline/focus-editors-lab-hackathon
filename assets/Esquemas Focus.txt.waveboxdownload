@@ -1,0 +1,265 @@
+"users": [
+        {
+            "name":"Milton Cappelletti",
+            "email":"milton@frames.news",
+            "password":"12345",
+            "role":"publisher",
+          }
+  
+        {
+            "name":"Mônica Mendes",
+            "email":"monicamatosmendes@gmail.com",
+            "password":"abcde",
+            "role":"publisher",
+          }
+    ]
+
+
+{
+    "homes": [
+        {
+            "name":"Lousã",
+            "hosts":true,
+            "id":01,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"joaolousa@gmail.com",
+            "stories": ["https://www.rtp.pt/noticias/pais/sexta-as-9-no-ponto-de-ignicao-do-incendio-da-lousa_v1036727"],
+            "meals":true,       "photo":"http://1.bp.blogspot.com/-GMJ26gyK1J8/UC1EPdlRdII/AAAAAAAADgU/avaNsTigDCk/s1600/IMG_3292.JPG",
+            "type":"T2",
+            "internet":true,
+            "reference":"Próximo a um café"
+        }
+    ]
+}
+
+
+
+
+{
+    "homes": [
+        {
+            "name":"Montijo",
+            "hosts":true,
+            "id":02,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"mariamontijo@gmail.com",
+            "stories": ["https://www.dn.pt/sociedade/interior/fumo-de-incendio-no-montijo-levou-ao-corte-da-a33---protecao-civil-8773927.html"],
+            "meals":true,       "photo":"https://static.globalnoticias.pt/dn/image.aspx?brand=DN&type=generate&name=original&id=8773927&w=579&h=371&t=20170915165700",
+            "type":"T1",
+            "internet":true,
+            "reference":""
+        }
+    ]
+}
+
+
+{
+    "homes": [
+        {
+            "name":"Alhais",
+            "hosts":true,
+            "id":03,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"martaalhais@gmail.com",
+            "stories": ["https://www.tsf.pt/lusa/interior/incendios-gnr-identifica-idosa-que-tera-ateado-fogo-florestal-em-vila-nova-de-paiva-8700527.html"],
+            "meals":true,       "photo":"https://pp.userapi.com/c639223/v639223179/507a5/zn7uAPxbLEI.jpg",
+            "type":"quarto",
+            "internet":true,
+            "reference":""
+        }
+    ]
+}
+
+
+
+
+{
+    "homes": [
+        {
+            "name":"Alhais",
+            "hosts":true,
+            "id":04,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"martaalhais@gmail.com",
+            "stories": ["https://www.tsf.pt/lusa/interior/incendios-gnr-identifica-idosa-que-tera-ateado-fogo-florestal-em-vila-nova-de-paiva-8700527.html"],
+            "meals":true,       "photo":"https://pp.userapi.com/c639223/v639223179/507a5/zn7uAPxbLEI.jpg",
+            "type":"quarto",
+            "internet":true,
+            "reference":""
+        }
+    ]
+}
+
+
+{
+    "homes": [
+        {
+            "name":"Arganil",
+            "hosts":true,
+            "id":05,
+            "availability": [
+                1509408000000,
+                1509840000000
+            ],
+            "contact":"pedroarganil@gmail.com",
+            "stories": ["http://www.tvi24.iol.pt/sociedade/08-10-2017/incendio-em-pampilhosa-da-serra-e-arganil-complica-se"],
+            "meals":true,       "photo":"http://sm2.imgs.sapo.pt/mb/g/4/b/LhjUZlVEmRFS2TYldtB9BGWk_.jpg",
+            "type":"quarto",
+            "internet":true,
+            "reference":""
+        }
+    ]
+}
+
+
+"districts": [
+        {
+            "id":1,
+            "name":"Arganil",
+            "coordinates":[40.218676, -8.053774]
+        },
+        {
+            "id":2,
+            "name":"Montijo",
+            "coordinates":[38.679700, -8.598151]
+        },
+        {
+            "id":3,
+            "name":"Lousã",
+            "coordinates":[40.111852, -8.244867]
+        },
+        {
+            "id":4,
+            "name":"Alhais",
+            "coordinates":[40.865643, -7.709862]
+        }
+    ],
+
+
+{
+    "speak": [
+        {
+            "regionId":1,
+            "date": Sat, 14 Oct 2017 11:33:46 GMT,
+            "author":"João Pereira da Silva",
+            "title":"Estrada perdida",
+            "content": "Vi pessoas mortas em condições… Encontrei dez corpos. Quatro ali, três lá em cima, outros dois ali. E ainda falta um… Ninguém pode imaginar este inferno”, desabafa Eugénio Santos, de 61 anos, um dos sobreviventes do incêndio que destruiu a aldeia de Nodeirinho, em Pedrógão Grande. “Destruir” e “sobrevivente” são as palavras certas. Num lugar com pouco mais de 30 habitantes, morreram 11 pessoas, incluindo uma criança de dois anos e outra de quatro.
+Os dez quilómetros que separam Pedrógão Grande de Nodeirinho mostram um cenário apocalíptico. Há casas completamente consumidas pelas chamas, carcaças de carros abandonados, terra queimada por todo o lado. Chovem cinzas do céu. O ar está completamente irrespirável e o calor é sufocante. É impossível ignorar o crepitar das chamas que ainda lavram o pouco que resta da vegetação e da madeira que não arderam. É impossível não sentir medo, assim como é impossível ignorar os corpos — de animais, mas também de pessoas. Há corpos carbonizados que ainda não foram retirados. Alguns estão cobertos por um lençol branco. Outros, nem isso.
+Manuel da Costa, de 60 anos, é a imagem de um homem derrotado pela Natureza. Os olhos mal abrem. Os dedos e as mãos estão sujos de fuligem. As unhas estão negras da batalha travada durante toda a noite, ombros com ombros com os vizinhos que decidiram enfrentar as chamas. Outros tentaram fugir e morreram no caminho, consumidos pelas chamas ou intoxicados pelo fumo. Manuel perdeu quase tudo. Sobrou a casa, parcialmente destruída. Das sete cabeças de gado, restam três. Duas ovelhas e uma cabra. Quando mostra o que resta do espaço onde guardava o pouco que tinha, é impossível ignorar o cadáver de uma ovelha, intocado pelas chamas e de olhar vazio. Enquanto esfrega os olhos e a voz lhe falha, vai repetindo: “Ardeu tudo. Ardeu tudo”. Mas essas perdas são menores, comparadas com o resto."
+        },
+        {
+            "regionId":2,
+            "date": Sun, 22 Oct 2017 12:33:46 GMT,
+            "author":"Maria Costa e Silva",
+            "title":"A aldeia solitária",
+            "content": "Numa aldeia onde todos se davam bem, “apesar das chatices normais entre vizinhos”, foi Manuel quem ajudou a proteção civil a encontrar os corpos. Nunca é demais repetir: numa aldeia com pouco mais de 30 habitantes, morreram 11 pessoas e há uma desaparecida. A conversa só é interrompida quando começa novo foco de incêndio num terreno a escassos metros das habitações. Os vizinhos, cinco, seis, sete, todos homens, apressam-se a tentar apagar o fogo. E conseguiram. Pelo menos, para já.
+Lá ao longe, pouco abaixo da casa de Eugénio, uma figura masculina guarda a casa que era sua. Não deixa ninguém aproximar-se. Nem jornalistas. Sabemos pelos vizinhos que está a guardar o corpo da namorada, que morreu no incêndio. Num cenário pintado a cinzento, o lençol branco que cobre o cadáver destaca-se. Já passaram mais de doze horas e ainda ninguém chegou para tratar condignamente do corpo.
+Não é o único. Cacilda Nunes Henriques, de 75 anos, guarda a entrada da aldeia quando nos aproximamos. Apoiada num cajado, tem uns estranhos óculos de lentes cor de laranja que lhe enfeitam a cara. São espelhados, “óculos de cachopos”, como diz. Esteve a noite toda a tentar combater como podia o incêndio e, por isso, teve de usar a primeira coisa que lhe protegesse os olhos vermelhos e cansados — cansados do fumo e de chorar. As lágrimas escorrem-lhe quando conta ao Observador que um “menino de dois anos morreu ali em cima” e que uma “menina de quatro anos e a avó morreram naquela estrada ao lado”. Morreram mais, mas Cacilda perde-se nos detalhes. Está exausta.
+Perdeu o curral e os “30 ou 40 bicos de galinha” que mantinha para sobreviver. Parte da casa foi consumida pelas chamas, mesmo depois de “ter passado a noite toda a acartar água sozinha”. “Moro sozinha, não tenho filhos, nem netos”. Cacilda tem 75 anos. “Se chegar ao dia 18 do próximo mês, faço 76 anos”, comenta, enquanto pede desculpa por não ter os dentes todos na boca. Perdeu a prótese durante o incêndio.
+Cacilda confessa que não come nada há horas. “Ainda tenho medo de me aproximar do fogão e a assistente social disse para não me aproximar das partes queimadas, porque podem cair. Mas também não quero sair daqui”. A custo, lá diz que, depois de conversar com o Observador, “vai comer uma sopinha à casa da vizinha”. “Tem de ser, não é?”."
+        }
+ {
+            "regionId":3,
+            "date": Tue, 3 Oct 2017 8:37:00 GMT,
+            "author":"André Pinheiro",
+            "title":"A aldeia solitária",
+            "content": "Ricardo, não vás. Não vás. Deixa aí o carro”. As palavras ainda ecoam na cabeça de Célia quando a memória pára no momento em que o vizinho, de pouco mais de 30 anos, pegou na viatura, meteu a mãe dentro e arrancou a toda a velocidade.
+Poucos metros à frente, o fogo devorou o carro onde iam. E os outros dos vizinhos que tiveram a mesma ideia. Naquela estrada, entre Castanheira de Pêra e Figueiró, este domingo ainda se viam as carcaças dos carros carbonizados. Não sobrou nada. Apenas um negro que cobria tudo. Profundo.
+Ricardo e a mãe são dois dos 11 habitantes de Pobrais, em Pedrógão Grande, que morreram na sequência do grande incêndio que nos últimos dois dias destruiu grande parte das povoações do concelho.
+Cecília não tem dúvidas. Se os vizinhos não tivessem saído de casa apenas tinha havido uma morte na aldeia. A de um idoso acamado.
+Mas Ricardo não quis ficar. “Ele só dizia: ‘Não posso ficar. Não posso’. E foi-se embora”, recorda a moradora de 45 anos.
+O pânico apoderou-se de toda a gente à volta. As fagulhas circulavam no céu incandescentes a uma velocidade que os olhos muitas vezes não conseguiam seguir. “Parecia fogo-de-artifício”, lembra. Metia medo. Muito medo.
+Cecília tinha o filho de 16 anos a dizer-lhe: “Ó mãe, está toda a gente a fugir. Vamos morrer aqui”.
+Ela olhava para fora e tinha uma certeza. Sair era morrer. “Se tivermos de morrer, morremos em casa”, respondia ao adolescente. “Tinha a certeza que se saísse morria lá fora”, acrescenta.
+Cecília faz uma pausa. Respira, enche o peito de ar. “Pensei que íamos todos morrer."
+        }
+ {
+            "regionId":3,
+            "date": Wed, 13 Sep 2017 1:30:00 GMT,
+            "author":"Ana Pimentel",
+            "title":"Perdas irreparáveis",
+            "content": "Fernando Paiva, tal como Armando, também decidiu fugir. O filho veio buscá-lo e, felizmente, conseguiu sair para o lado contrário do local onde os vizinhos haveriam de perder a vida.
+“Os carros estavam todos trancados. Não se passava. Batiam uns nos outros. Foi uma sorte virar para o outro lado”, explica.
+Fernando perdeu uma das casas que tinha. Perdeu também os animais, cabras e galinhas, perdeu muitos investimentos. O homem de 67 anos ainda procura as palavras que melhor definam o que viu.
+“Isto foi um fenómeno. Isto foi um tornado. Nem faço ideia da força que isto trazia. Nunca me lembro de uma coisa assim”, descreve. “Os prejuízos são incalculáveis”, acrescenta de seguida.
+Mas mais do que as perdas materiais, é a perda dos amigos e de vizinhos que mais dói. Será difícil que o dia 17 de Junho saia da cabeça de qualquer um dos habitantes daquela povoação. Eles já sabem disso. E sabem que vão ter de lutar contra as memórias.
+“O Ricardo tinha acabado agora a casa para ir viver com a mulher. Estava tão feliz, via-se na cara dele. E agora isto”, remata Armando."
+        }
+
+
+ {
+            "regionId":4,
+            "date": Wed, 27 Set 2017 12:30:46 GMT,
+            "author":"Ricardo Oliveira",
+            "title":"Cenário de devastação",
+            "content": "O cenário é de devastação, quase pós-bélica. Postes de eletricidade caídos, com os cabos a fazerem de lombas na estrada, a sinalética rodoviária consumida pelas chamas, ilegível e pintada com o negro do fumo. O céu ainda reflete a cor do fogo e o nevoeiro está carregado de cinzas. “Não temos água, não temos nada”, diz, entre lágrimas, um aldeão de Nodeirinho. A luz está inativa há mais de um dia, o acesso à água impossibilitado, e a rede móvel quase inexistente. Os sobreviventes estão sujeitos ao inóspito. A paisagem reduziu-se às sirenes sem cessar.
+O chão ferve e queima a sola dos sapatos, a vida animal transtorna-se com isso: formigas atarantadas, abelhas perdidas e pássaros caídos. “As aves morreram todas. Todas”, diz o mesmo aldeão.
+A falta de água e o calor também atacam as equipas de bombeiros voluntários. Um deles é obrigado a beber do lago de uma rotunda; água morna e suja, que não chega para lhe matar a sede. Trabalhava há 23 horas consecutivas.
+A estrada é marcada por um compasso de carros carbonizados; uns abandonados, outros por abandonar. Largados em plena via, encostados na berma, despistados uns nos outros. Durante a noite, a maioria dos cadáveres dos que não conseguiram escapar foram recolhidos. Alguns ficaram e a Guarda Nacional Republicana vedou o acesso à sua contemplação a todos, incluindo locais, que não fossem polícia forense.
+O i sabe que o pânico da madrugada, com a escuridão da noite e a concentração de fumo, cegou os automobilistas presos entre as labaredas. Uns abandonaram os veículos e tentaram a sua sorte a pé, outros aceleraram sem saber para onde, alguns, poucos, conseguiram chegar a casa. E a casa nem sempre chegou para ser salvação. Devido à falta de visibilidade, muitos foragidos ao fogo acabaram por ser abalroados por carros também em fuga. O resultado foram corpos que o calor colou ao alcatrão ou ao banco do condutor. Um deles, de um rapaz de apenas quatro anos. “Ele só tinha quatro aninhos. Nunca fez mal a ninguém”, lamenta a tia, que consola ao irmão ao mesmo tempo."
+        }
+
+
+
+
+
+
+    ],
+    "report": [
+        {
+            "author":"Sebastião Bugalho",
+"regionId":1,
+           "link":"https://ionline.sapo.pt/artigo/568382/e-o-inferno-na-terra-teve-um-nome-pedrogao-grande?seccao=Portugal_i",
+            "title":"E o inferno na terra teve um nome: Pedrógão Grande",
+            "lead":"Depois de uma tarde passada na praia das Rocas, os automobilistas que regressavam a casa viram-se apanhados numa armadilha de fumo e chamas. As autoridades atribuem as culpas da tragédia à trovoada seca, mas a ideia de fogo posto não abandona as mentes de muitos locais",
+            "thumbnail":"https://cdn1.newsplex.pt/media/2017/6/19/590728.jpg"
+        },
+        {
+            "author":"João Carlos Malta",
+"regionId":2,
+            "link":"http://rr.sapo.pt/noticia/86571/ricardo_nao_vas_nao_vas_mas_ele_foi_e_ja_nao_volta",
+            "title":"​Ricardo, não vás. Não vás. Mas ele foi e já não volta”
+",
+            "lead":"Em Pobrais, um terço da aldeia perdeu a vida a tentar fugir do fogo que lhe engoliu casas, animais, vegetação. Mas pior que tudo foi uma tentativa desesperada que levou a vida de 11 vizinhos e amigos.",
+            "thumbnail":"https://cdnimages01.azureedge.net/renascenca/img_18882752b2c0.jpg"
+        }
+ {
+            "author":"Miguel Santos Carrapatoso",
+"regionId":3,
+            "link":"http://observador.pt/especiais/encontrei-dez-corpos-quatro-ali-tres-la-em-cima-outros-dois-ali-nao-sei-do-meu-filho/",
+            "title":​"Encontrei dez corpos. Quatro ali, três lá em cima, outros dois ali…"
+",
+            "lead":"Em Nodeirinho, aldeia de Pedrógão Grande, morreram 11 pessoas. Não seriam mais de 30 habitantes. Há um pai que não sabe do filho e um homem que faz guarda à namorada morta em casa.",
+            "thumbnail":"http://img.obsnocookie.com/s=w1300,pd1/o=80/http://s3cdn.observador.pt/wp-content/uploads/2017/06/19131729/incendio_pedrogao37_1280x640_acf_cropped-1.jpg"
+        }
+
+
+ {
+            "author":"Ricardo Marques",
+"regionId":4,
+            "link":"http://expresso.sapo.pt/sociedade/2017-06-18-A-estrada-mais-triste-de-Portugal-2",
+            "title":​"A estrada mais triste de Portugal
+"
+",
+            "lead":"De Figueiró a Castanheira, por entre cinzas e destruição
+",
+            "thumbnail":"http://images-cdn.impresa.pt/expresso/2017-06-18-IMG_4935.JPG-1/original"
+        }
+
+
+
+
+    ]
+}
