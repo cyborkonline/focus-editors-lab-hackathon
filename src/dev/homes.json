@@ -3,13 +3,13 @@
         {
             "name":"Lousã",
             "hosts":true,
-            "id":1,
+            "id":3,
             "availability": [
                 1509408000000,
                 1509840000000
             ],
             "contact":"joaolousa@gmail.com",
-            "stories": ["https://www.rtp.pt/noticias/pais/sexta-as-9-no-ponto-de-ignicao-do-incendio-da-lousa_v1036727"],
+            "stories": ["https://www.rtp.pt/noticias/pais/sexta-as-9-no-ponto-de-ignicao-do-incendio-da-lousa_v1036727","http://observador.pt/especiais/encontrei-dez-corpos-quatro-ali-tres-la-em-cima-outros-dois-ali-nao-sei-do-meu-filho"],
             "meals":true,       "photo":"http://1.bp.blogspot.com/-GMJ26gyK1J8/UC1EPdlRdII/AAAAAAAADgU/avaNsTigDCk/s1600/IMG_3292.JPG",
             "type":"T2",
             "internet":true,
@@ -39,7 +39,7 @@
                 1509840000000
             ],
             "contact":"martaalhais@gmail.com",
-            "stories": ["https://www.tsf.pt/lusa/interior/incendios-gnr-identifica-idosa-que-tera-ateado-fogo-florestal-em-vila-nova-de-paiva-8700527.html"],
+            "stories": ["https://www.tsf.pt/lusa/interior/incendios-gnr-identifica-idosa-que-tera-ateado-fogo-florestal-em-vila-nova-de-paiva-8700527.html", "http://www.fozaominuto.com/2017/10/incendio-na-localidade-dos-alhais.html"],
             "meals":true,       "photo":"https://pp.userapi.com/c639223/v639223179/507a5/zn7uAPxbLEI.jpg",
             "type":"quarto",
             "internet":true,
@@ -54,9 +54,9 @@
                 1509840000000
             ],
             "contact":"martaalhais@gmail.com",
-            "stories": ["https://www.tsf.pt/lusa/interior/incendios-gnr-identifica-idosa-que-tera-ateado-fogo-florestal-em-vila-nova-de-paiva-8700527.html"],
-            "meals":true,       "photo":"https://pp.userapi.com/c639223/v639223179/507a5/zn7uAPxbLEI.jpg",
-            "type":"quarto",
+            "stories":[],
+            "meals":true,       "photo":"https://imovirtualpt-images.akamaized.net/images_imovirtualpt/369229_3_1280x1024_moradia-nova-em-alhais-carrico-moradias_rev032.jpg",
+            "type":"T2",
             "internet":true,
             "reference":""
         },

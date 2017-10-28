@@ -58,7 +58,7 @@ export default class LeafletMap extends Component {
       <div className="LeafletMap">
         <Map center={this.coordinates.initialFocus} zoom={this.state.zoom}>
           <TileLayer
-            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+            url="http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png"
           />
           <GeoJSON
             className="overlayLayer"

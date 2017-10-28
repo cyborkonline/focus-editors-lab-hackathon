@@ -21,7 +21,7 @@ export default class Timeline extends Component {
     storyData = storyData.sort((a, b) => a.date > b.date);
     for (let i = 0; i < storyData.length; i += 1) {
       const story = storyData[i];
-      const storyThumbnail = story.link ? '../../assets/focus_icon_withimg1.png' : '../../assets/focus_icon_withimg2.png';
+      const storyThumbnail = story.link ? '../../assets/focus_icon_withimg2.png' : '../../assets/focus_icon_withimg1.png';
       let element;
       if (story.link) {
         element = (
@@ -31,7 +31,7 @@ export default class Timeline extends Component {
             </a>
             <div className="story-details-report">
               <a href={story.link} target="_blank">
-                <h4>{story.title} in <i>{story.publisher}</i></h4>
+                <h4><b>{story.title}</b> in <i>{story.publisher}</i></h4>
               </a>
               <h5>{story.date}</h5>
             </div>
@@ -105,6 +105,7 @@ export default class Timeline extends Component {
     } else {
       userStories = this.organizeStories(this.storyMode);
     }
+    console.log(userStories)
     const storyComponent = this.generateStoryComponent(userStories);
     return (
       <div className="Timeline">

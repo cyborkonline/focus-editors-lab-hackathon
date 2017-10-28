@@ -37,11 +37,11 @@ export default class ModalContent extends Component {
   render() {
     return (
       <div className="Modal">
-        <Appbar className="mui--bg-color-light-green-200">
+        <Appbar className="appbar-dark">
           <h5>{this.modalRegionName}</h5>
         </Appbar>
         <div className="ModalContent">
-          <Appbar className="mui--bg-color-light-green-100">
+          <Appbar className="appbar-light">
             <h5>Stories from {this.modalRegionName}</h5>
           </Appbar>
           <Timeline
@@ -50,7 +50,7 @@ export default class ModalContent extends Component {
         </div>
         <Divider />
         <div className="ModalContent">
-          <Appbar className="mui--bg-color-light-green-100">
+          <Appbar className="appbar-light">
             <h5>Available Homes in {this.modalRegionName}</h5>
           </Appbar>
           <Home
