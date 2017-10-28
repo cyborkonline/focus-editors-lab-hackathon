@@ -3,6 +3,7 @@ import Appbar from 'muicss/lib/react/appbar';
 import Divider from 'muicss/lib/react/divider';
 import PropTypes from 'prop-types';
 import Timeline from './Timeline';
+import Home from './Home';
 
 export default class ModalContent extends Component {
   constructor(props) {
@@ -52,7 +53,9 @@ export default class ModalContent extends Component {
           <Appbar className="mui--bg-color-light-green-100">
             <h5>Available Homes in {this.modalRegionName}</h5>
           </Appbar>
-          Content
+          <Home
+            regionId={this.modalId || 0}
+          />
         </div>
       </div>
     );

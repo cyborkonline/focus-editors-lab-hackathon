@@ -2,23 +2,23 @@
     "districts": [
         {
             "id":1,
-            "name":"Guarda",
-            "coordinates":[40.540439, -7.273930]
+            "name":"Arganil",
+            "coordinates":[40.218676, -8.053774]
         },
         {
             "id":2,
-            "name":"Ponte de Sor",
-            "coordinates":[41.571819, -7.004770]
+            "name":"Montijo",
+            "coordinates":[38.679700, -8.598151]
         },
         {
             "id":3,
-            "name":"Pedrogão Grande",
-            "coordinates":[39.255146, -8.211666]
+            "name":"Lousã",
+            "coordinates":[40.111852, -8.244867]
         },
         {
             "id":4,
-            "name":"Porto",
-            "coordinates":[37.989667, -7.732560]
+            "name":"Alhais",
+            "coordinates":[40.865643, -7.709862]
         }
     ],
     "initialFocus": [39.600492, -7.996217]

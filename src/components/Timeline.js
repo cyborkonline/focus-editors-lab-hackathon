@@ -6,7 +6,7 @@ import stories from '../dev/stories.json';
 
 const data = { homes, stories };
 export default class Timeline extends Component {
-  static generateStoryComponent(userStories) {
+  generateStoryComponent(userStories) {
     const storyElements = [];
     let storyData = [];
     if (userStories.length === 1) {
