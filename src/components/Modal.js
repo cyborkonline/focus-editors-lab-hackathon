@@ -35,7 +35,7 @@ export default class ModalContent extends Component {
 
 
   render() {
-    const LoginButton = !this.state.userLogged ?
+    const LoginButton = this.state.userLogged ?
     '' : (
       <span
         role="button"

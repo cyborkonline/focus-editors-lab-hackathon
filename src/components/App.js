@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 import TEST_DATA from '../dev/testData.json';
+import Divider from 'muicss/lib/react/divider';
 import LeafletMap from './Map';
 
 
@@ -14,9 +15,19 @@ class App extends Component {
       <div className="App">
         <div className="App-Title">
           <h1>Focus</h1>
+
+          <Divider />
+
+          <div className="title-sections">
+            Map
+            <span className="divider-left"/>
+            Timeline
+            <span className="divider-left"/>
+            About 
+          </div>
         </div>
-          < LeafletMap />
-      </div>
+        < LeafletMap />
+    </div>
     );
   }
 }
