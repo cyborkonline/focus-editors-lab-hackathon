@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import users from '../dev/users.json';
-import homes from '../dev/homes.json';
 import Appbar from 'muicss/lib/react/appbar';
-
-const data = { users, homes };
+import Divider from 'muicss/lib/react/divider';
+import PropTypes from 'prop-types';
+import Timeline from './Timeline';
 
 export default class ModalContent extends Component {
   constructor(props) {
@@ -13,6 +11,7 @@ export default class ModalContent extends Component {
       userLogged: localStorage.focusAppLogin || false,
     };
     this.modalId = props.modalRegionId;
+    this.modalRegionName = props.modalRegionName;
   }
   componentDidMount() {
     // this.generateSignInButton();
@@ -35,28 +34,25 @@ export default class ModalContent extends Component {
 
 
   render() {
-    const LoginButton = this.state.userLogged ?
-    '' : (
-      <span
-        role="button"
-        tabIndex="-1"
-        className="login-button"
-        onClick={() => {
-          this.setState({
-            userLogged: true,
-          });
-          localStorage.focusAppLogin = true;
-        }}
-      > Login
-      </span>
-    );
     return (
       <div className="Modal">
-        <Appbar className="mui--bg-color-light-green-100">
-          <h5>{LoginButton}</h5>
+        <Appbar className="mui--bg-color-light-green-200">
+          <h5>{this.modalRegionName}</h5>
         </Appbar>
         <div className="ModalContent">
-          We got some stuff in here
+          <Appbar className="mui--bg-color-light-green-100">
+            <h5>Stories from {this.modalRegionName}</h5>
+          </Appbar>
+          <Timeline
+            regionId={this.regionId || 0}
+          />
+        </div>
+        <Divider />
+        <div className="ModalContent">
+          <Appbar className="mui--bg-color-light-green-100">
+            <h5>Available Homes in {this.modalRegionName}</h5>
+          </Appbar>
+          Content
         </div>
       </div>
     );
@@ -65,4 +61,5 @@ export default class ModalContent extends Component {
 
 ModalContent.propTypes = {
   modalRegionId: PropTypes.number.isRequired,
+  modalRegionName: PropTypes.string.isRequired,
 };

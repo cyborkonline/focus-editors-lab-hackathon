@@ -4,17 +4,7 @@
             "name":"David Morais",
             "email":"david@frames.news",
             "password":"******",
-            "role":"publisher",
-            "stories": [
-                {
-                    "id":2,
-                    "stories": ["http://publisher.com/reportagem"]
-                },
-                {
-                    "id":3,
-                    "stories": ["http://outroPublisher.com/outraReportagem"]
-                }
-            ]
+            "role":"publisher"
         }
     ]
 }

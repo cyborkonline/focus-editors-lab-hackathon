@@ -4,12 +4,12 @@ import logo from '../logo.svg';
 import TEST_DATA from '../dev/testData.json';
 import Divider from 'muicss/lib/react/divider';
 import LeafletMap from './Map';
+import LoginButton from './Login'
 
-
-import "!style-loader!css-loader!sass-loader!../../node_modules/muicss/dist/css/mui.min.css";
 import "!style-loader!css-loader!sass-loader!../style.scss";
 
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
@@ -24,6 +24,8 @@ class App extends Component {
             Timeline
             <span className="divider-left"/>
             About 
+            <span className="divider-right"/>
+            < LoginButton />
           </div>
         </div>
         < LeafletMap />

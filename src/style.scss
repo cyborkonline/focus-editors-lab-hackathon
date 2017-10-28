@@ -30,6 +30,14 @@ body {
     font-family: Roboto;
     color: $color-secondary;
 
+    .mui-divider {
+      display: block;
+      height: 1px;
+      opacity: 0.5;
+      background-color: white;
+    }
+
+
     .App-Title {
       background-color: black;
       opacity: 0.6;
@@ -37,17 +45,16 @@ body {
       margin: 0 1% 0 1%;
       border-radius: 5px;
     
-      .mui-divider {
-        display: block;
-        height: 1px;
-        opacity: 0.5;
-        background-color: white;
-      }
-  
       .divider-left {
         border-left:1px solid white;
         opacity: 0.5;
         margin: 5px 10px 0px 5px;
+      }
+
+      .divider-right {
+        border-left:1px solid white;
+        opacity: 0.5;
+        margin: 5px 10px 0px 60%;
       }
 
       .title-sections {
@@ -56,18 +63,34 @@ body {
         width: 80%;
       }
     }
+
     .leaflet-container {
-      margin: 0 2% 0 2%;
+      margin: 0 5% 0 5%;
       background-color: transparent !important;
       height: 500px;
       margin-top: 20px;
       border-radius: 5px;
       box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.3); 
-      width: 96%;
+      width: 90%;
+
+      .leaflet-control-attribution {
+        display:none
+      }
+
+      .overlayLayer {
+        fill: #81c784;
+        stroke: #81c784;
+      }
     }
   }
   
   .Modal {
+    border-radius: 5px;
+
+    .mui-appbar {
+      color: black;
+      padding: 1% 0 0 5%;
+    }
 
     .login-button {
       color: #000;
@@ -79,9 +102,17 @@ body {
     .login-button:hover {
       color: $color-secondary;
     }
+  
+    .mui-divider {
+      display: block;
+      height: 1px;
+      opacity: 0.5;
+      margin-top: 5px;
+      background-color: #424242;
+    }
 
     .ModalContent {
-      background-color:#CFD8DC;
+      background-color: #F5F5F5;
       height: 75%;
       margin-top: 20px;
     }

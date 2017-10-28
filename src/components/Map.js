@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Map, Marker, TileLayer } from 'react-leaflet';
+import { Map, Marker, TileLayer, GeoJSON } from 'react-leaflet';
 import Modal from 'react-modal';
 import ModalContent from './Modal';
 import coordinates from '../dev/coordinates.json';
+import worldGeoJson from '../../assets/world.geo.json';
 
 const modalContentStyle = {
   position: 'absolute',
@@ -18,7 +19,7 @@ export default class LeafletMap extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      zoom: 4,
+      zoom: 6,
       modalOpen: false,
       modalRegionId: 0,
     };
@@ -34,6 +35,7 @@ export default class LeafletMap extends Component {
     for (let i = 0; i < districtPositions.length; i++) { // eslint-disable-line
       const latLong = districtPositions[i].coordinates;
       const id = districtPositions[i].id;
+      const name = districtPositions[i].name;
       markersArray.push(
         <Marker
           position={latLong}
@@ -41,6 +43,7 @@ export default class LeafletMap extends Component {
           onClick={() => {
             this.setState({
               modalOpen: !this.state.modalOpen,
+              modalRegionName: name,
               modalRegionId: id,
             });
           }}
@@ -55,8 +58,11 @@ export default class LeafletMap extends Component {
       <div className="LeafletMap">
         <Map center={this.coordinates.initialFocus} zoom={this.state.zoom}>
           <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+          />
+          <GeoJSON
+            className="overlayLayer"
+            data={worldGeoJson}
           />
           {this.pinMarkers()}
         </Map>
@@ -74,10 +80,13 @@ export default class LeafletMap extends Component {
           contentLabel="Modal"
         >
           <ModalContent
-            modalRegionId={this.state.modalRegionId}
+            storyMode={this.storyMode || ''}
+            modalRegionId={this.state.modalRegionId || 0}
+            modalRegionName={this.state.modalRegionName || 'Portugal'}
           />
         </Modal>
       </div>
     );
   }
 }
+

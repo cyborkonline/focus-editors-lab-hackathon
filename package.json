@@ -4,7 +4,7 @@
   "description": "Minimal boilerplate for developing projects with React, Sass, MUI CSS and Webpack 3",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --optimize-minimize git --config webpack.config.js",
+    "build": "webpack --optimize-minimize --config webpack.config.js",
     "start": "webpack-dev-server --progress --colors --inline --hot"
   },
   "author": "David Morais",

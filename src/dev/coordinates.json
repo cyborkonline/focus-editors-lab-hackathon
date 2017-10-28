@@ -2,18 +2,22 @@
     "districts": [
         {
             "id":1,
+            "name":"Guarda",
             "coordinates":[40.540439, -7.273930]
         },
         {
             "id":2,
+            "name":"Ponte de Sor",
             "coordinates":[41.571819, -7.004770]
         },
         {
             "id":3,
+            "name":"Pedrogão Grande",
             "coordinates":[39.255146, -8.211666]
         },
         {
             "id":4,
+            "name":"Porto",
             "coordinates":[37.989667, -7.732560]
         }
     ],
