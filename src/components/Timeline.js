@@ -43,13 +43,21 @@ export default class Timeline extends Component {
         }
       }
     }
-    console.log(organizedStories);
     return organizedStories;
   }
 
   generateStoryComponent(userStories) {
     const storyElements = [];
-    console.log(userStories);
+    let storyData = [];
+    if (userStories.length === 1) {
+      storyData = userStories;
+    } else {
+      for (let i = 0; i < userStories.length; i += 1) {
+        for (let j = 0; j < userStories[i].length; j += 1) {
+          storyData.push(userStories[i][j]);
+        }
+      }
+    }
     return (<h1> hey </h1>);
   }
 
