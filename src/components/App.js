@@ -2,11 +2,18 @@
 import React, { Component } from 'react';
 import Divider from 'muicss/lib/react/divider';
 import LeafletMap from './Map';
+import Timeline from './Timeline';
 import LoginButton from './Login'
 
 import "!style-loader!css-loader!sass-loader!../style.scss";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      storyMode: ''
+    };
+  }
   
   render() {
     return (

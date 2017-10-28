@@ -6,6 +6,55 @@ import stories from '../dev/stories.json';
 
 const data = { homes, stories };
 export default class Timeline extends Component {
+  static generateStoryComponent(userStories) {
+    const storyElements = [];
+    let storyData = [];
+    if (userStories.length === 1) {
+      storyData = userStories;
+    } else {
+      for (let i = 0; i < userStories.length; i += 1) {
+        for (let j = 0; j < userStories[i].length; j += 1) {
+          storyData.push(userStories[i][j]);
+        }
+      }
+    }
+    storyData = storyData.sort((a, b) => a.date > b.date);
+    for (let i = 0; i < storyData.length; i += 1) {
+      const story = storyData[i];
+      const storyThumbnail = story.link ? '../../assets/focus_icon_withimg1.png' : '../../assets/focus_icon_withimg2.png';
+      let element;
+      if (story.link) {
+        element = (
+          <div className="story" key={i}>
+            <a href={story.link} target="_blank">
+              <img src={storyThumbnail} alt="focus-marker" className="story-thumbnail" />
+            </a>
+            <div className="story-details-report">
+              <a href={story.link} target="_blank">
+                <h4>{story.title} in <i>{story.publisher}</i></h4>
+              </a>
+              <h5>{story.date}</h5>
+            </div>
+          </div>
+        );
+      } else {
+        element = (
+          <div className="story" key={i}>
+            <img src={storyThumbnail} alt="focus-marker" className="story-thumbnail" />
+            <div className="story-details-speak">
+              <h4>{story.title}</h4>
+              <h5>{story.date}</h5>
+              <p>{story.content}</p>
+            </div>
+          </div>
+        );
+      }
+      storyElements.push(element);
+    }
+
+    return (storyElements);
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -44,48 +93,6 @@ export default class Timeline extends Component {
       }
     }
     return organizedStories;
-  }
-
-  generateStoryComponent(userStories) {
-    const storyElements = [];
-    let storyData = [];
-    if (userStories.length === 1) {
-      storyData = userStories;
-    } else {
-      for (let i = 0; i < userStories.length; i += 1) {
-        for (let j = 0; j < userStories[i].length; j += 1) {
-          storyData.push(userStories[i][j]);
-        }
-      }
-    }
-    storyData = storyData.sort((a, b) => a.date > b.date);
-    for (let i = 0; i < storyData.length; i += 1) {
-      const story = storyData[i];
-      const storyThumbnail = story.link ? '../../assets/focus_icon_withimg1.png' : '../../assets/focus_icon_withimg2.png';
-      let element;
-      if (story.link) {
-        element = (
-          <div className="story" key={i}>
-            <a href={story.link} target="_blank">
-              <img src={storyThumbnail} alt="focus-marker" className="story-thumbnail" />
-              <h4>{story.title} in <i>{story.publisher}</i></h4>
-            </a>
-            <h5>{story.date}</h5>
-          </div>
-        );
-      } else {
-        element = (
-          <div className="story" key={i}>
-            <img src={storyThumbnail} alt="focus-marker" className="story-thumbnail" />
-            <h5>{story.date}</h5>
-            <p>{story.content}</p>
-          </div>
-        );
-      }
-      storyElements.push(element);
-    }
-
-    return (storyElements);
   }
 
   render() {
